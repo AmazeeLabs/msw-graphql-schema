@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Start test api
-        run: yarn test-api & wait-on http://localhost:4000
+        run: yarn test-api & yarn wait-on http://localhost:4000
       - name: Run tests
         run: yarn test
       - name: Submit test coverage
