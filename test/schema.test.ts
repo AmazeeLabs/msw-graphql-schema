@@ -4,7 +4,7 @@ import { setupServer } from 'msw/node';
 import ApolloClient, { ApolloError, gql } from 'apollo-boost';
 
 describe('mock remote schema', () => {
-  const endpoint = 'http://localhost:4000';
+  const endpoint = 'http://localhost:4000/graphql';
 
   it('returns "Hello World" for non-mocked fields', async (done) => {
     const server = setupServer(...(await schema(endpoint)()));
@@ -29,17 +29,13 @@ describe('mock remote schema', () => {
     server.listen();
     const client = new ApolloClient({ uri: endpoint, onError: () => {} });
     try {
-      const result = await client
-        .query({
-          query: gql`
-            {
-              bar
-            }
-          `,
-        })
-        .then((res) => {
-          console.log(res);
-        });
+      await client.query({
+        query: gql`
+          {
+            bar
+          }
+        `,
+      });
     } catch (e) {
       if (e instanceof ApolloError) {
         expect(e.message).toEqual(

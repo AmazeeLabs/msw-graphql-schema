@@ -5,7 +5,7 @@ import {
   ResponseTransformer,
   rest,
 } from 'msw';
-import ApolloClient, { gql, InMemoryCache } from 'apollo-boost';
+import ApolloClient, { gql } from 'apollo-boost';
 import 'cross-fetch/polyfill';
 
 import {

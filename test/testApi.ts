@@ -21,11 +21,11 @@ const resolvers = {
 const server = new ApolloServer({ typeDefs, resolvers });
 
 const app = express();
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
   res.statusCode = 200;
   res.send('OK');
 });
-server.applyMiddleware({ app });
+server.applyMiddleware({ app, path: '/graphql' });
 
 app.listen({ port: 4000 }, () => {
   console.log(`🚀  Server ready at http://localhost:4000`);
