@@ -16,6 +16,8 @@ jobs:
           node-version: 12
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+      - name: Start test api
+        run: yarn test-api & wait-on http://localhost:4000/test
       - name: Run tests
         run: yarn test
       - name: Submit test coverage
