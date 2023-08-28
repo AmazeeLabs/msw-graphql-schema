@@ -2216,14 +2216,14 @@
     tempy "^3.0.0"
 
 "@semantic-release/release-notes-generator@^11.0.0", "@semantic-release/release-notes-generator@^11.0.1":
-  version "11.0.4"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.4.tgz#8e4b81402bf544f912952909c0525e6fe8227232"
-  integrity sha512-j0Znnwq9IdWTCGzqSlkLv4MpALTsVDZxcVESzJCNN8pK2BYQlYaKsdZ1Ea/+7RlppI3vjhEi33ZKmjSGY1FLKw==
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.5.tgz#32f5a30b1b5b5791bbc47d3919e4876340679870"
+  integrity sha512-jnwKpBYoAjsxAdUS8fOeMb5k23pYZx0ZSh+ttDWhuhIfHzeXPSyLPZB0q/Fymt6HrQa5gP0h8qGZFtTQrEcTrg==
   dependencies:
     conventional-changelog-angular "^6.0.0"
     conventional-changelog-writer "^6.0.0"
     conventional-commits-filter "^3.0.0"
-    conventional-commits-parser "^4.0.0"
+    conventional-commits-parser "^5.0.0"
     debug "^4.0.0"
     get-stream "^7.0.0"
     import-from "^4.0.0"
