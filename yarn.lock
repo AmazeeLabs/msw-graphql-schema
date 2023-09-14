@@ -1787,16 +1787,16 @@
     "@types/set-cookie-parser" "^2.4.0"
     set-cookie-parser "^2.4.6"
 
-"@mswjs/interceptors@^0.17.5":
-  version "0.17.5"
-  resolved "https://registry.yarnpkg.com/@mswjs/interceptors/-/interceptors-0.17.5.tgz#38a7502e5bf8b579901adece32693b1620ea7172"
-  integrity sha512-/uZkyPUZMRExZs+DZQVnc+uoDwLfs1gFNvcRY5S3Gu78U+uhovaSEUW3tuyld1e7Oke5Qphfseb8v66V+H1zWQ==
+"@mswjs/interceptors@^0.17.10":
+  version "0.17.10"
+  resolved "https://registry.yarnpkg.com/@mswjs/interceptors/-/interceptors-0.17.10.tgz#857b41f30e2b92345ed9a4e2b1d0a08b8b6fcad4"
+  integrity sha512-N8x7eSLGcmUFNWZRxT1vsHvypzIRgQYdG0rJey/rZCy6zT/30qDt8Joj7FxzGNLSwXbeZqJOMqDurp7ra4hgbw==
   dependencies:
     "@open-draft/until" "^1.0.3"
     "@types/debug" "^4.1.7"
-    "@xmldom/xmldom" "^0.7.5"
+    "@xmldom/xmldom" "^0.8.3"
     debug "^4.3.3"
-    headers-polyfill "^3.1.0"
+    headers-polyfill "3.2.5"
     outvariant "^1.2.1"
     strict-event-emitter "^0.2.4"
     web-encoding "^1.1.5"
@@ -2582,13 +2582,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/set-cookie-parser@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/@types/set-cookie-parser/-/set-cookie-parser-2.4.3.tgz#963a7437ed026c6adec2a71478ed6e3df2837160"
-  integrity sha512-7QhnH7bi+6KAhBB+Auejz1uV9DHiopZqu7LfR/5gZZTkejJV5nYeZZpgfFoE0N8aDsXuiYpfKyfyMatCwQhyTQ==
-  dependencies:
-    "@types/node" "*"
-
 "@types/stack-utils@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
@@ -2710,10 +2703,10 @@
   dependencies:
     tslib "^1.9.3"
 
-"@xmldom/xmldom@^0.7.5":
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.7.5.tgz#09fa51e356d07d0be200642b0e4f91d8e6dd408d"
-  integrity sha512-V3BIhmY36fXZ1OtVcI9W+FxQqxVLsPKcNjWigIaa81dLC9IolJl5Mt4Cvhmr0flUnjSpTdrbMTSbXqYqV5dT6A==
+"@xmldom/xmldom@^0.8.3":
+  version "0.8.10"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.10.tgz#a1337ca426aa61cef9fe15b5b28e340a72f6fa99"
+  integrity sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==
 
 "@zxing/text-encoding@0.9.0":
   version "0.9.0"
@@ -5816,13 +5809,10 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-headers-polyfill@^3.1.0, headers-polyfill@^3.2.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.2.1.tgz#f760811ed6c042803436f42157a0f6d59f805d59"
-  integrity sha512-jpY9fNMWPWwkqRN9CpSRNqL9svpiuSmg4CsbPl4s43KltIDIVHlPv75UOXVgc/PTP6BzHSUvd9UMdxSW1I+ETQ==
-  dependencies:
-    "@types/set-cookie-parser" "^2.4.3"
-    set-cookie-parser "^2.6.0"
+headers-polyfill@3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/headers-polyfill/-/headers-polyfill-3.2.5.tgz#6e67d392c9d113d37448fe45014e0afdd168faed"
+  integrity sha512-tUCGvt191vNSQgttSyJoibR+VO+I6+iCHIUdhzEMJKE+EAL8BwCN7fUOZlY4ofOelNHsK+gEjxB/B+9N3EWtdA==
 
 homedir-polyfill@^1.0.1:
   version "1.0.3"
@@ -7948,12 +7938,12 @@ ms@2.1.3, ms@^2.1.1, ms@^2.1.2:
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
 msw@^1.0.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/msw/-/msw-1.3.0.tgz#dc1f80a79f4719610e45a87e77d1ec32720bbb6d"
-  integrity sha512-nnWAZlQyQOKeYRblCpseT1kSPt1aF5e/jHz1hn/18IxbsMFreSVV1cJriT0uV+YG6+wvwFRMHXU3zVuMvuwERQ==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/msw/-/msw-1.3.1.tgz#84a12bb17e76c25a7accaf921317044907ccd501"
+  integrity sha512-GhP5lHSTXNlZb9EaKgPRJ01YAnVXwzkvnTzRn4W8fxU2DXuJrRO+Nb6OHdYqB4fCkwSNpIJH9JkON5Y6rHqJMQ==
   dependencies:
     "@mswjs/cookies" "^0.2.2"
-    "@mswjs/interceptors" "^0.17.5"
+    "@mswjs/interceptors" "^0.17.10"
     "@open-draft/until" "^1.0.3"
     "@types/cookie" "^0.4.1"
     "@types/js-levenshtein" "^1.1.1"
@@ -7961,7 +7951,7 @@ msw@^1.0.0:
     chokidar "^3.4.2"
     cookie "^0.4.2"
     graphql "^15.0.0 || ^16.0.0"
-    headers-polyfill "^3.2.0"
+    headers-polyfill "3.2.5"
     inquirer "^8.2.0"
     is-node-process "^1.2.0"
     js-levenshtein "^1.1.6"
@@ -9502,11 +9492,6 @@ set-cookie-parser@^2.4.6:
   version "2.4.7"
   resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.4.7.tgz#7baf76cbcd454b888ad6bed250d66af729f4f4c5"
   integrity sha512-VaSdYN1DlYuKOzBKqhYJnwaPeirZdNNUNmYdnp9/6Umr9s8amidctYitrX2Gk8wCqiBuiG5mpOYCiVhG5o4iMQ==
-
-set-cookie-parser@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.6.0.tgz#131921e50f62ff1a66a461d7d62d7b21d5d15a51"
-  integrity sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==
 
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
