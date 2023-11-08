@@ -37,7 +37,7 @@
     "babel-jest": "^29.0.0",
     "cross-fetch": "^4.0.0",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "^7.4.0",
+    "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.22.0",
